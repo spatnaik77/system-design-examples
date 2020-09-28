@@ -1,6 +1,6 @@
 # System Design Examples
 
-* Netflix
+* Netflix/Youtube - Video streaming platform
 * Twitter
 * Facebook/Instagram
 * Uber/Grab/Ola
@@ -15,7 +15,18 @@
 * Google Drive
 * Slack
 
-## Netflix
+## Netflix/Youtube - Video streaming platform
+## Functional Requirements
+* Upload videos
+* Search 
+* Play video
+* Omni Channel
+## Non-Functional Requirements
+* Low latency
+* High Availability
+* 
+
+
 
 
 ## Twitter
