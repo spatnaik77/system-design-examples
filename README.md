@@ -1,4 +1,4 @@
-# system-design-examples
+# System Design Examples
 
 * Netflix
 * Twitter
