@@ -30,6 +30,9 @@
 Total storage need = 30GB * 10,000 = 300 TB
 * Video metadata - Description, Genre, Actors etc
 * User Data - For each user, metadata about their watched movies. 100KB per user * 200 Million users = 20TB 
+## Conceptual Architecture
+<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/Netflix.png">
+
 
 
 
@@ -43,3 +46,4 @@ Total storage need = 30GB * 10,000 = 300 TB
 
 
 ## Uber/Grab/Ola
+10
