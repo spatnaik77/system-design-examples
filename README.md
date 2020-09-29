@@ -20,11 +20,18 @@
 * Upload videos
 * Search 
 * Play video
-* Omni Channel
+* Recommendation
 ## Non-Functional Requirements
 * Low latency
 * High Availability
-* 
+* 200 Million users across the globe
+## Data estimation
+* Video data - 10,000 movies in total. Each video can have 2 formats, High Definition & standard definition. Each 1 hour video aprox 10GB for SD & 20GB for HD
+Total storage need = 30GB * 10,000 = 300 TB
+* Video metadata - Description, Genre, Actors etc
+* User Data - For each user, metadata about their watched movies. 100KB per user * 200 Million users = 20TB 
+
+
 
 
 
