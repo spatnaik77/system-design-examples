@@ -1,11 +1,11 @@
 # System Design Examples
 
-- [Netflix/Youtube - Video streaming platform](#heading)
-- [Twitter](#heading-1)
-- [vvv](#FacebookInstagram)
+- [Netflix/Youtube - Video streaming platform](#Netflix/Youtube)
+- [Twitter](#twitter)
+- [Facebook/Instagram](#FacebookInstagram)
 
 
-## Netflix/Youtube - Video streaming platform
+## Netflix/Youtube
 ### Functional Requirements
 * Upload videos
 * Search 
