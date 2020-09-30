@@ -48,7 +48,8 @@ Total storage need = 30GB * 10,000 = 300 TB
 * 500 Million accounts in total
 * 500 Million tweets per day. ie around 6000 tweets / second
 ### Conceptual Architecture
-
+<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/Twitter.png">
+<br>
 
 ## Facebook/Instagram
 
