@@ -1,6 +1,6 @@
 # System Design Examples
 
-- [Heading](#Netflix/Youtube - Video streaming platform)
+- [Heading](#heading)
 
 
 ## Netflix/Youtube - Video streaming platform
