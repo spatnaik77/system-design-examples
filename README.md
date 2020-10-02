@@ -3,6 +3,7 @@
 - [Netflix/Youtube - Video streaming platform](#NetflixYoutube)
 - [Twitter](#twitter)
 - [Facebook/Instagram](#FacebookInstagram)
+- [Amazon/Walmart](#AmazonWalmart)
 - [Uber/Grab/Ola - Cab booking system](#Uber)
 - [WhatsApp/Facebook messenger - Messaging](#Whatsapp)
 - [Zoom](#zoom)
@@ -41,6 +42,17 @@ Follow a user, Tweet (text, url, image , video), timeline - Show the tweets from
 <br>
 
 ## Facebook/Instagram
+Functional Requirements | Non-Functional Requirements
+------------ | -------------
+Add a friend, Post (text, url, image , video), timeline - Show the posts from friends, User posts - Show the posts by the user | Low latency, High availability, Read intensive , 5 billion daily active users
+
+### Conceptual Architecture
+<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/Facebook.png">
+<br>
+
+## Amazon/Walmart
+
+
 
 
 ## Uber/Grab/Ola
