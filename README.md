@@ -16,15 +16,11 @@
 
 
 ## Netflix/Youtube
-### Functional Requirements
-* Upload videos
-* Search 
-* Play video
-* Recommendation
-### Non-Functional Requirements
-* Low latency
-* High Availability
-* 200 Million users across the globe
+
+Functional Requirements | Non-Functional Requirements
+------------ | -------------
+* Upload videos, Search, Play video, Recommendation | Low latency, High Availability, 200 Million users across the globe
+
 ### Data estimation
 * Video data - 10,000 movies in total. Each video can have 2 formats, High Definition & standard definition. Each 1 hour video aprox 10GB for SD & 20GB for HD
 Total storage need = 30GB * 10,000 = 300 TB
