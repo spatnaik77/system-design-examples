@@ -51,6 +51,8 @@ Add a friend, Post (text, url, image , video), timeline - Show the posts from fr
 <br>
 
 ## Amazon/Walmart
+<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/Walmart.png">
+<br>
 
 
 
