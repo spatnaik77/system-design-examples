@@ -25,7 +25,7 @@ Functional Requirements | Non-Functional Requirements
 ------------ | -------------
 Upload a file, Download a file, Support folder heirarchy, Web client | Highly available, Support 1 billion users each having 15GB of storage limit
 
-<img style="border:1px solid black"; src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/GoogleDrive.png">
+<img style="border:1px solid black;" src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/GoogleDrive.png">
 <br>
 
 ## Slack
