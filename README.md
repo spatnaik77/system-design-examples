@@ -1,19 +1,22 @@
 # System Design Examples
 
+Many systems design questions are intentionally left very vague and are literally given in the form of Design Facebook. It's your job to ask clarifying questions to better understand the system that you have to build.
+
 - [Netflix/Youtube - Video streaming platform](#NetflixYoutube)
 - [Twitter](#twitter)
 - [Facebook/Instagram](#FacebookInstagram)
 - [Amazon/Walmart](#AmazonWalmart)
-- [Uber/Grab/Ola - Cab booking system](#Uber)
-- [WhatsApp/Facebook messenger - Messaging](#Whatsapp)
+- [Google Drive](#)
 - [Zoom](#zoom)
 - [URLShortner](#URLShortner)
+- [Uber/Grab/Ola - Cab booking system](#Uber)
+- [WhatsApp/Facebook messenger - Messaging](#Whatsapp)
 - [AirBNB/MakeMyTrip - Hotel Booking](#airbnb)
 - [Notification service - Supporting billions of users & notofications](#)
 - [Code Deployment System](#)
 - [Stock Broker](#)
 - [Facebook News Feed](#)
-- [Google Drive](#)
+
 
 
 ## Netflix/Youtube
@@ -51,9 +54,20 @@ Add a friend, Post (text, url, image , video), timeline - Show the posts from fr
 <br>
 
 ## Amazon/Walmart
+<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/Walmart.png">
+<br>
 
 
 
 
-## Uber/Grab/Ola
-10
+## Google Drive
+Functional Requirements | Non-Functional Requirements
+------------ | -------------
+Upload a file, Download a file, Support folder heirarchy, Web client | Highly available, Support 1 billion users each having 15GB of storage limit
+
+<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/.png">
+<br>
+
+
+
+
