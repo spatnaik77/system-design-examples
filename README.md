@@ -8,7 +8,6 @@ Many systems design questions are intentionally left very vague and are literall
 - [Twitter](#twitter)
 - [Facebook/Instagram](#FacebookInstagram)
 - [Amazon/Walmart](#AmazonWalmart)
-
 - [Zoom](#zoom)
 - [URLShortner](#URLShortner)
 - [Uber/Grab/Ola - Cab booking system](#Uber)
