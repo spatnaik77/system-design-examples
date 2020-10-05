@@ -2,11 +2,11 @@
 
 Many systems design questions are intentionally left very vague and are literally given in the form of Design Facebook. It's your job to ask clarifying questions to better understand the system that you have to build.
 
+- [Google Drive](#)
 - [Netflix/Youtube - Video streaming platform](#NetflixYoutube)
 - [Twitter](#twitter)
 - [Facebook/Instagram](#FacebookInstagram)
 - [Amazon/Walmart](#AmazonWalmart)
-- [Google Drive](#)
 - [Zoom](#zoom)
 - [URLShortner](#URLShortner)
 - [Uber/Grab/Ola - Cab booking system](#Uber)
@@ -18,6 +18,13 @@ Many systems design questions are intentionally left very vague and are literall
 - [Facebook News Feed](#)
 
 
+## Google Drive
+Functional Requirements | Non-Functional Requirements
+------------ | -------------
+Upload a file, Download a file, Support folder heirarchy, Web client | Highly available, Support 1 billion users each having 15GB of storage limit
+
+<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/GoogleDrive.png">
+<br>
 
 ## Netflix/Youtube
 
@@ -60,13 +67,7 @@ Add a friend, Post (text, url, image , video), timeline - Show the posts from fr
 
 
 
-## Google Drive
-Functional Requirements | Non-Functional Requirements
------------- | -------------
-Upload a file, Download a file, Support folder heirarchy, Web client | Highly available, Support 1 billion users each having 15GB of storage limit
 
-<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/.png">
-<br>
 
 
 
