@@ -3,10 +3,12 @@
 Many systems design questions are intentionally left very vague and are literally given in the form of Design Facebook. It's your job to ask clarifying questions to better understand the system that you have to build.
 
 - [Google Drive](#google-drive)
+- [Slack](#Slack)
 - [Netflix/Youtube - Video streaming platform](#NetflixYoutube)
 - [Twitter](#twitter)
 - [Facebook/Instagram](#FacebookInstagram)
 - [Amazon/Walmart](#AmazonWalmart)
+
 - [Zoom](#zoom)
 - [URLShortner](#URLShortner)
 - [Uber/Grab/Ola - Cab booking system](#Uber)
@@ -24,6 +26,16 @@ Functional Requirements | Non-Functional Requirements
 Upload a file, Download a file, Support folder heirarchy, Web client | Highly available, Support 1 billion users each having 15GB of storage limit
 
 <img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/GoogleDrive.png">
+<br>
+
+## Slack
+Designing the core messaging functionality, which involves communicating in both one-on-one channels and group channels in an organization
+
+Functional Requirements | Non-Functional Requirements
+------------ | -------------
+User registration, Send a message to a user (plain text, image and video), Create a Channel, Add users to channels, Read direct messages from users, read messages from a chanenel, Highlights channels with unread messages, Cross device synchronization of the messages, | High availability, Low latency. Supports multi tenancy - Contains multiple organizations with users and channels, 20 Million users, 50K channels per organization,
+
+<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/Slack.png">
 <br>
 
 ## Netflix/Youtube
@@ -63,6 +75,8 @@ Add a friend, Post (text, url, image , video), timeline - Show the posts from fr
 ## Amazon/Walmart
 <img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/Walmart.png">
 <br>
+
+
 
 
 
