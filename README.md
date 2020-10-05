@@ -19,12 +19,13 @@ Many systems design questions are intentionally left very vague and are literall
 - [Facebook News Feed](#)
 
 
+<br>
 ## Google Drive
 Functional Requirements | Non-Functional Requirements
 ------------ | -------------
 Upload a file, Download a file, Support folder heirarchy, Web client | Highly available, Support 1 billion users each having 15GB of storage limit
 
-<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/GoogleDrive.png">
+<img style="border:1px solid black"; src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/GoogleDrive.png">
 <br>
 
 ## Slack
@@ -56,7 +57,6 @@ Total storage need = 30GB * 10,000 = 300 TB
 Functional Requirements | Non-Functional Requirements
 ------------ | -------------
 Follow a user, Tweet (text, url, image , video), timeline - Show the tweets from followers, User tweets - Show all the tweets done by the user | Low latency, High availability, Read intensive , 100 Million daily active users, Timeline view should get refreshed at real time, 500 Million accounts in total, 500 Million tweets per day. ie around 6000 tweets / second
-
 
 ### Conceptual Architecture
 <img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/Twitter.png">
