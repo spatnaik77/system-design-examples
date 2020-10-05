@@ -19,17 +19,19 @@ Many systems design questions are intentionally left very vague and are literall
 - [Facebook News Feed](#)
 
 
-<br>
+
 ## Google Drive
+Design the core functionality of good drive
+
 Functional Requirements | Non-Functional Requirements
 ------------ | -------------
-Upload a file, Download a file, Support folder heirarchy, Web client | Highly available, Support 1 billion users each having 15GB of storage limit
+Upload a file, Download a file, Support folder heirarchy, Web client | Highly available, Support 1 billion users each having 15GB of storage limit,
 
-<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/GoogleDrive.png">
+<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/GoogleDrive.png"/>
 <br>
 
 ## Slack
-Designing the core messaging functionality, which involves communicating in both one-on-one channels and group channels in an organization
+Design the core messaging functionality, which involves communicating in both one-on-one channels and group channels in an organization
 
 Functional Requirements | Non-Functional Requirements
 ------------ | -------------
