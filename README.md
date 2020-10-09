@@ -31,11 +31,6 @@ Upload a file, Download a file, Support folder heirarchy, Web client | Highly av
 <br>
 
 ## Slack
-Design the core messaging functionality, which involves communicating in both one-on-one channels and group channels in an organization
-
-Functional Requirements | Non-Functional Requirements
------------- | -------------
-User registration, Send a message to a user (plain text, image and video), Create a Channel, Add users to channels, Read direct messages from users, read messages from a chanenel, Highlights channels with unread messages, Cross device synchronization of the messages, | High availability, Low latency. Supports multi tenancy - Contains multiple organizations with users and channels, 20 Million users, 50K channels per organization,
 
 <img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/Slack.png">
 <br>
