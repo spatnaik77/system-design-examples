@@ -8,9 +8,9 @@ Many systems design questions are intentionally left very vague and are literall
 - [Twitter](#twitter)
 - [Facebook/Instagram](#FacebookInstagram)
 - [Amazon/Walmart](#AmazonWalmart)
+- [Uber/Grab/Ola - Cab booking system](#Uber)
 - [Zoom](#zoom)
 - [URLShortner](#URLShortner)
-- [Uber/Grab/Ola - Cab booking system](#Uber)
 - [WhatsApp/Facebook messenger - Messaging](#Whatsapp)
 - [AirBNB/MakeMyTrip - Hotel Booking](#airbnb)
 - [Notification service - Supporting billions of users & notofications](#)
@@ -75,6 +75,16 @@ Add a friend, Post (text, url, image , video), timeline - Show the posts from fr
 
 ## Amazon/Walmart
 <img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/Walmart.png">
+<br>
+
+## Uber
+Design Uber focusing on the Core booking service from both customer & driver perspective
+
+Functional Requirements | Non-Functional Requirements
+------------ | -------------
+Find a cab, Get visibility into ETA, Track a ride, Complete ride | Low latency, High availability, 
+
+<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/Uber.png">
 <br>
 
 
