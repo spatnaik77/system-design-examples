@@ -33,15 +33,7 @@ Many systems design questions are intentionally left very vague and are literall
 
 
 
-## Uber
-Design Uber focusing on the Core booking service from both customer & driver perspective
 
-Functional Requirements | Non-Functional Requirements
------------- | -------------
-Find a cab, Get visibility into ETA, Track a ride, Complete ride | Low latency, High availability, 
-
-<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/Uber.png">
-<br>
 
 
 
