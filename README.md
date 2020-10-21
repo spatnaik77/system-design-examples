@@ -29,7 +29,10 @@ Many systems design questions are intentionally left very vague and are literall
 <img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/GoogleDrive.png"/>
 <br>
 
+## Netflix
 
+<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/Netflix.png"/>
+<br>
 
 
 
