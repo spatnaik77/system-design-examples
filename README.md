@@ -3,7 +3,6 @@
 Many systems design questions are intentionally left very vague and are literally given in the form of Design Facebook. It's your job to ask clarifying questions to better understand the system that you have to build.
 
 - [Distributed ID Generator](#Distributed_ID_Generator)
-- [URLShortner](#URLShortner)
 - [Slack/WhatsApp/Team - Messaging Platform](#Slack)
 - [Google Drive](#google-drive)
 - [Netflix/Youtube - Video Streaming Platform](#NetflixYoutube)
@@ -39,13 +38,8 @@ The IDs are 64-bits in size and are generated with the combination of the follow
   * https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c
   * https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake
   * https://www.callicoder.com/distributed-unique-id-sequence-number-generator/
-  * https://github.com/phxql/snowflake-id
-  
-  
+  * https://github.com/phxql/snowflake-id  
 <br>
-
-## URLShortner
-URL Shrtner Service
 
 
 ## Slack
