@@ -23,6 +23,9 @@ The IDs are 64-bits in size and are generated with the combination of the follow
   * Node ID - 10 bits. This gives us 1024 nodes/machines.
   * Sequence Number - Local counter per machine - 13 bits (Theoritically can generate 2^13-1 per milli second
   
+  ### Source Code
+  https://github.com/spatnaik77/system-design-examples/blob/master/src/idgenerator/IdGenerator.java
+  
   ### References
   * https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c
   * https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake
