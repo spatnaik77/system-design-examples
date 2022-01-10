@@ -2,7 +2,7 @@
 
 Many systems design questions are intentionally left very vague and are literally given in the form of Design Facebook. It's your job to ask clarifying questions to better understand the system that you have to build.
 
-- [Distributed ID Generator](#Distributed ID Generator)
+- [Distributed ID Generator](#Distributed)
 - [Slack/WhatsApp/Team - Messaging Platform](#Slack)
 - [Google Drive](#google-drive)
 - [Netflix/Youtube - Video Streaming Platform](#NetflixYoutube)
@@ -16,7 +16,7 @@ Many systems design questions are intentionally left very vague and are literall
 - [AirBNB/MakeMyTrip - Hotel Booking](#airbnb)
 - [Notification service - Supporting billions of users & notofications](#)
 
-## Distributed ID Generator
+## Distributed
 Test 123 
 <br>
 
