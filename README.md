@@ -39,7 +39,7 @@ The IDs are 64-bits in size and are generated with the combination of the follow
 ## URLShortner
 URL Shrtner Service
 
-<br>
+
 ## Slack
 
 <img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/Slack.png">
