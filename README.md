@@ -18,7 +18,15 @@ Many systems design questions are intentionally left very vague and are literall
 - [Notification service - Supporting billions of users & notofications](#)
 
 ## Distributed_ID_Generator
-Generates Twitter-like Snowflake ids. In short, this is an id scheme to generate unique 64 bit ids which are roughly sortable across multiple systems without a central instance.
+
+### System Requirements
+     * IDs must be unique and sortable
+     * IDs should contain numeric values
+     * Should fit into 64 bit 
+     * Should scale to 1ok per second
+
+### Proposed Solution
+Generates Twitter-like Snowflake ids. In short, This is an id scheme to generate unique 64 bit ids which are roughly sortable across multiple systems without a central instance.
 The IDs are 64-bits in size and are generated with the combination of the following:
   * Epoch timestamp in milliseconds precision - 41 bits
   * Node ID - 10 bits. This gives us 1024 nodes/machines.
