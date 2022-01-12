@@ -3,6 +3,7 @@
 Many systems design questions are intentionally left very vague and are literally given in the form of Design Facebook. It's your job to ask clarifying questions to better understand the system that you have to build.
 
 - [Distributed ID Generator](#Distributed_ID_Generator)
+- [URLShortener](#URLShortener)
 - [Slack/WhatsApp/Team - Messaging Platform](#Slack)
 - [Google Drive](#google-drive)
 - [Netflix/Youtube - Video Streaming Platform](#NetflixYoutube)
@@ -39,6 +40,26 @@ The IDs are 64-bits in size and are generated with the combination of the follow
   * https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake
   * https://www.callicoder.com/distributed-unique-id-sequence-number-generator/
   * https://github.com/phxql/snowflake-id  
+<br>
+
+## URLShortener
+
+### System Requirements
+    * Convert a long URL to short URL
+    * Short URL should be a combination of 0-9, a-z and A-Z 
+    * Short URL length should be as small as possible
+    * Support 100 million URLs per day
+### Data Calculations
+    * Assuming the service will run for 10 years, it needs to support 10 * 365 * 10 million = 365 Billion records
+    * Assuming each record is around 100 bytes, should support 365 TB of data
+    * To support more than 365 billion unique records with (0-9, a-z & A-Z) ie 62 unique charecters, its safe to keep the length of the shortened URL at 7 ( 62 ^ 7 = 3.5 trillion)
+
+### Proposed Solution     
+    * Generate an unique ID for each long URL (Refer Distributed ID Generator)
+    * Generate a Base62 representation of this ID. Thats going to be the short URL
+    * Store all these 3 attributes in a database for each record
+
+<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/urlshortener.png">
 <br>
 
 
