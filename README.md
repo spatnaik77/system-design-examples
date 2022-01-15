@@ -4,6 +4,7 @@ Many systems design questions are intentionally left very vague and are literall
 
 - [Distributed ID Generator](#Distributed_ID_Generator)
 - [URLShortener](#URLShortener)
+- [WebCrawler](#WebCrawler)
 - [Slack/WhatsApp/Team - Messaging Platform](#Slack)
 - [Google Drive](#google-drive)
 - [Netflix/Youtube - Video Streaming Platform](#NetflixYoutube)
@@ -62,6 +63,13 @@ The IDs are 64-bits in size and are generated with the combination of the follow
 <img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/urlshortener.png">
 <br>
 
+## WebCrawler
+
+### System Requirements
+
+### Data Calculation
+
+### Proposed Solution
 
 ## Slack
 
