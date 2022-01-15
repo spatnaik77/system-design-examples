@@ -78,7 +78,8 @@ The IDs are 64-bits in size and are generated with the combination of the follow
         * Assuming each web page is 500 KB. Total size = 1000000000 * 500 = 500 TB per month * 12 * 5 = 3000 TB  
 
 ### Proposed Solution
-
+<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/webcrawler.png">
+<br>
 
 ## NotificationService
 
@@ -89,7 +90,8 @@ The IDs are 64-bits in size and are generated with the combination of the follow
     * User preference service - Users should be able to opt out 
 
 ### Proposed Solution
-
+<img src="https://github.com/spatnaik77/system-design-examples/blob/master/design-pictures/notificationservice.png">
+<br>
 
 
 ## Slack
