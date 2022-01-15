@@ -16,8 +16,6 @@ Many systems design questions are intentionally left very vague and are literall
 
 - [Zoom](#zoom)
 
-- [AirBNB/MakeMyTrip - Hotel Booking](#airbnb)
-- [Notification service - Supporting billions of users & notofications](#)
 
 ## Distributed_ID_Generator
 
