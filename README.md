@@ -8,8 +8,8 @@ Many systems design questions are intentionally left very vague and are literall
 - [NotificationService](#NotificationService)
 - [Slack/WhatsApp/Team - Messaging Platform](#Slack)
 - [Google Drive](#google-drive)
-- [Netflix/Youtube - Video Streaming Platform](#NetflixYoutube)
-- [Twitter/Instagram/Pinterest - Micro Blogging Platform](#twitter)
+- [Netflix/Youtube - Video Streaming Platform](#Netflix)
+- [Twitter/Instagram/Pinterest - Micro Blogging Platform](#Twitter)
 - [Uber/Grab/Ola - Cab Booking System](#Uber)
 - [Amazon/Flipkart/Walmart - ECommerce Platform](#AmazonWalmart)
 
