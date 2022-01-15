@@ -65,10 +65,20 @@ The IDs are 64-bits in size and are generated with the combination of the follow
 ## WebCrawler
 
 ### System Requirements
+    * Given a set of seed URLs, crawl all the web pages, download them. Extract the URLs amd add them to the list and continue
+    * Should scale out
+    * 
 
 ### Data Calculation
+    * Should crawl around 1 billion pages per month
+    * Store data for around 5 years
+    * Pages with duplicate content should be avoided
+    * Pages to be crawled = 1000000000 (1 billion) / 24 / 3600 = 400 pages / second 
+    * Data storage requirement 
+        * Assuming each web page is 500 KB. Total size = 1000000000 * 500 = 500 TB per month * 12 * 5 = 3000 TB  
 
 ### Proposed Solution
+
 
 ## NotificationService
 
