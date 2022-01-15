@@ -5,6 +5,7 @@ Many systems design questions are intentionally left very vague and are literall
 - [Distributed ID Generator](#Distributed_ID_Generator)
 - [URLShortener](#URLShortener)
 - [WebCrawler](#WebCrawler)
+- [NotificationService](#NotificationService)
 - [Slack/WhatsApp/Team - Messaging Platform](#Slack)
 - [Google Drive](#google-drive)
 - [Netflix/Youtube - Video Streaming Platform](#NetflixYoutube)
@@ -70,6 +71,15 @@ The IDs are 64-bits in size and are generated with the combination of the follow
 ### Data Calculation
 
 ### Proposed Solution
+
+## NotificationService
+
+### System Requirements
+
+### Data Calculation
+
+### Proposed Solution
+
 
 ## Slack
 
