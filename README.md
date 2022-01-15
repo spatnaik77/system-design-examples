@@ -83,10 +83,13 @@ The IDs are 64-bits in size and are generated with the combination of the follow
 ## NotificationService
 
 ### System Requirements
-
-### Data Calculation
+    * Support for Email, SMS & Push notifications(both IOS and Android)
+    * Real time
+    * Notifaction service should expose an interface using which client applications can send notfications
+    * User preference service - Users should be able to opt out 
 
 ### Proposed Solution
+
 
 
 ## Slack
